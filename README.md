@@ -1,5 +1,5 @@
 # Kibana Heatmap Plugin
-A Heatmap Plugin for Kibana 4
+A Heatmap Plugin for Kibana 5
 
 ![Kibana Heatmap](heatmap.gif)
 

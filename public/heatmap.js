@@ -7,8 +7,8 @@ require('plugins/heatmap/heatmap_tooltip_directive.js');
 
 
 function HeatmapProvider(Private) {
-  var TemplateVisType = Private(require('ui/template_vis_type/TemplateVisType'));
-  var Schemas = Private(require('ui/Vis/Schemas'));
+  var TemplateVisType = Private(require('ui/template_vis_type/template_vis_type'));
+  var Schemas = Private(require('ui/vis/schemas'));
   var colors = require('plugins/heatmap/colors.js');
 
   return new TemplateVisType({
